@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Lista usuarios</title>
+<title>Lista productos</title>
 </head>
 <body>
 
@@ -63,7 +63,7 @@
 			List<Producto> productList = BdController.getProductList();
 			if (productList.isEmpty()) {
 			%>
-			<p>No hay usuarios disponibles.</p>
+			<p>No hay productos disponibles.</p>
 			<%
 			} else {
 			%>
