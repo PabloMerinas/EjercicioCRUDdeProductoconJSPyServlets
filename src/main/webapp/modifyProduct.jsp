@@ -57,7 +57,7 @@
 		<a href="index.html">
 			<div class="GestiNDeClientes"
 				style="left: 773px; top: 145px; position: absolute; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">Gestión
-				de clientes</div>
+				de productos</div>
 		</a>
 		<div class="PabloMerinasSoto"
 			style="width: 839px; height: 67px; left: 561px; top: 739px; position: absolute; background: white; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">Pablo
