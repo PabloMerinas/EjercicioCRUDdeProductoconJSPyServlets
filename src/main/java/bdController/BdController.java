@@ -119,7 +119,7 @@ public class BdController {
 
 		connect();
 		try {
-			String sql = "UPDATE productos SET nombre = ?, descripcion = ?,peso = ?, stock = ?, password = ? WHERE nombre = ?";
+			String sql = "UPDATE productos SET nombre = ?, descripcion = ?,peso = ?, stock = ?  WHERE nombre = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
 			preparedStatement.setString(1, product.getNombre());
